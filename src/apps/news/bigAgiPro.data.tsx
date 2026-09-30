@@ -8,19 +8,19 @@ import { Link } from '~/common/components/Link';
 import { clientUtmSource } from '~/common/util/pwaUtils';
 
 
-export const bigAgiProUrl = 'https://big-agi.com' + clientUtmSource('upgrade');
+export const bigAgiProUrl = 'https://github.com/Arun9339/MyAi_project';
 
 export function BigAgiProNewsCallout() {
 
-  const bigAgiSupportUrl = 'https://form.typeform.com/to/nLf8gFmx?utm_source=big-agi-1&utm_medium=app&utm_campaign=support';
+  const bigAgiSupportUrl = 'https://github.com/Arun9339/MyAi_project/issues';
 
   return (
     <Card variant='solid' color='primary' invertedColors>
       <CardContent sx={{ gap: 2 }}>
-        <Typography level='title-lg'>Big-AGI Pro ✨ - Now Live</Typography>
+        <Typography level='title-lg'>MyAI ✨ - Now Live</Typography>
 
         <Typography level='title-sm' sx={{ lineHeight: 'xl' }}>
-          Experience the <b>next generation of Big-AGI</b> with <b>Beam 2</b>, <b>Personas</b>, and <b>Cloud Sync</b> to never lose data.
+          Experience the <b>next generation of MyAI</b> with <b>Beam 2</b>, <b>Personas</b>, and <b>Cloud Sync</b> to never lose data.
         </Typography>
 
         <Grid container spacing={1}>
@@ -36,7 +36,7 @@ export function BigAgiProNewsCallout() {
               noLinkStyle
               target='_blank'
             >
-              Big-AGI Pro
+              MyAI GitHub
             </Button>
           </Grid>
 

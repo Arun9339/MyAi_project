@@ -42,7 +42,7 @@ export function middleware(request: NextRequest) {
 const unauthResponse: ResponseInit = {
   status: 401,
   headers: {
-    'WWW-Authenticate': 'Basic realm="Secure big-AGI"',
+    'WWW-Authenticate': 'Basic realm="Secure MyAI"',
   },
 };
 

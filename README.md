@@ -1,18 +1,11 @@
 <div align="center">
 
-<img width="256" height="256" alt="Big-AGI Logo" src="https://big-agi.com/assets/logo-bright-github.svg" />
+<h1><a href="https://github.com/Arun9339/MyAi_project">MyAI</a></h1>
 
-<h1><a href="https://big-agi.com">Big-AGI</a></h1>
-
-[![Use Free ⋅ Go Pro](https://img.shields.io/badge/Use_Free-Get_Pro-d5ec31?style=for-the-badge&logo=rocket&logoColor=white&labelColor=000)](https://big-agi.com)
-[![Deploy on Docker](https://img.shields.io/badge/Self--Host-Docker-blue?style=for-the-badge&logo=docker&logoColor=white&labelColor=000)](https://github.com/enricoros/big-AGI/pkgs/container/big-agi)
-[![Deploy on Vercel](https://img.shields.io/badge/Vercel-Deploy-blue?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000)](https://vercel.com/new/clone?repository-url=https://github.com/enricoros/big-agi)
-[![Discord](https://img.shields.io/discord/1098796266906980422?style=for-the-badge&label=Discord&logo=discord&logoColor=white&labelColor=000000&color=purple)](https://discord.gg/MkH4qj2Jp9)
-<br/>
-[![GitHub Monthly Commits](https://img.shields.io/github/commit-activity/m/enricoros/big-agi?style=for-the-badge&x=3&logo=github&logoColor=white&label=commits&labelColor=000&color=green)](https://github.com/enricoros/big-agi/commits)
-[![GHCR Pulls](https://img.shields.io/badge/ghcr.io-850k_dl-12b76a?style=for-the-badge&logo=Xdocker&logoColor=white&labelColor=000&color=A8E6CF)](https://github.com/enricoros/big-AGI/pkgs/container/big-agi)
-[![Contributors](https://img.shields.io/github/contributors/enricoros/big-agi?style=for-the-badge&x=2&logo=Xgithub&logoColor=white&label=cooks&labelColor=000&color=A8E6CF)](https://github.com/enricoros/big-AGI/graphs/contributors)
+[![Repository](https://img.shields.io/badge/GitHub-MyAi__project-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=000)](https://github.com/Arun9339/MyAi_project)
 [![License: MIT](https://img.shields.io/badge/License-MIT-A8E6CF?style=for-the-badge&labelColor=000)](https://opensource.org/licenses/MIT)
+
+</div>
 <br/>
 
 [![Open an Issue](https://img.shields.io/badge/Open_Issue-AI_Will_Help-ff8c00?style=for-the-badge&logo=fireship&logoColor=fff&labelColor=8b0000)](https://github.com/enricoros/big-agi/issues/new?template=ai-triage.yml)
@@ -27,21 +20,16 @@
 
 <br/>
 
-# Big-AGI Open 🧠
+# MyAI 🧠
 
-This is the open-source foundation of **Big-AGI**, ___the multi-model AI workspace for experts___.
+This is **MyAI**, ___the multi-model AI workspace for experts___.
 
-Big-AGI is the multi-model AI workspace for experts: Engineers architecting systems. Founders making decisions. Researchers validating hypotheses.
-You need to think broader, decide faster, and build with confidence, then you need Big-AGI.
+MyAI is the multi-model AI workspace for experts: Engineers architecting systems, founders making decisions, and researchers validating hypotheses.
+When you need to think broader, decide faster, and build with confidence, you need MyAI.
 
 It comes packed with **world-class features** like Beam, and is praised for its **best-in-class AI chat UX**.
-**As an independent, non-VC-funded project, Pro subscriptions at $10.99/mo fund development for everyone, including the free and open-source tiers.**
 
-![LLM Vendors](https://img.shields.io/badge/20+_LLM_Services-500+_Models-black?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=purple)&nbsp;
-[![Feature Beam](https://img.shields.io/badge/AI--Validation-BEAM-000?style=for-the-badge&labelColor=purple)](https://big-agi.com/beam)&nbsp;
-[![Feature Inspector](https://img.shields.io/badge/Expert_Mode-AI_Inspector-000?style=for-the-badge&labelColor=purple)](https://big-agi.com/inspector)
-
-### What makes Big-AGI different:
+### What makes MyAI different:
 
 **Intelligence**: with [Beam & Merge](https://big-agi.com/beam) for multi-model de-hallucination, native search, and bleeding-edge AI models like Opus 5, GPT 5.6, Gemini 3.7, Kimi K3 or Grok 4.6 -
 **Control**: with personas, data ownership, requests inspection, unlimited usage with API keys, and *no vendor lock-in* -
@@ -90,12 +78,12 @@ AI Inspector
 </tr>
 </table>
 
-### Who uses Big-AGI:  
+### Who uses MyAI:  
 Loved by engineers, founders, researchers, self-hosters, and IT departments for its power, reliability, and transparency.
 
 <img width="830" height="370" alt="image" src="https://github.com/user-attachments/assets/513c4f77-0970-4a56-b23b-1416c8246174" />
 
-Choose Big-AGI because you don't need another clone or slop - you need an AI tool that scales with you.
+Choose MyAI because you don't need another clone or slop - you need an AI tool that scales with you.
 
 ### Show me a screenshot:
 Sure - here is real-world screeengrab as I'm writing this, while running a Beam to extract SVG from an image with Sonnet 4.5, Opus 4.1, GPT 5.1, Gemini 2.5 Pro, Nano Banana, etc.  
@@ -104,55 +92,32 @@ Sure - here is real-world screeengrab as I'm writing this, while running a Beam 
 
 ## Get Started
 
-| Tier                                                 | Best For          | What You Get                                                  | Setup       |
-|------------------------------------------------------|-------------------|---------------------------------------------------------------|-------------|
-| Big-AGI Open (self-host)                             | **IT**            | First to get new models support. Maximum control and privacy. | 5-30 min    |
-| [big-agi.com](https://big-agi.com) Free              | **Everyone**      | Full core experience, improved Beam, new Personas, best UX.   | **2 min**\* |
-| **[big-agi.com](https://big-agi.com) Pro** $10.99/mo | **Professionals** | Everything + **Sync** across unlimited devices + 1GB storage  | **2 min**\* |
-
-\*: **Configuration requires your API keys**. *Big-AGI does not charge for model usage or limit your access*.  
-**Why Pro?** As an independent project, Pro subscriptions fund all development. Early subscribers shape the roadmap directly.    
-
-[![Use Free ⋅ Go Pro](https://img.shields.io/badge/Use_Free-Get_Pro-d5ec31?style=for-the-badge&logo=rocket&logoColor=white&labelColor=000)](https://big-agi.com)
-
-**Self-host and developers** (full control)  
-- Develop locally or self-host with Docker on your own infrastructure – [guide](docs/installation.md)  
-- Or fork & run on Vercel:  
-  [![Deploy on Vercel](https://img.shields.io/badge/Deploy-black?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fenricoros%2Fbig-AGI&env=OPENAI_API_KEY&envDescription=Backend%20API%20keys%2C%20optional%20and%20may%20be%20overridden%20by%20the%20UI.&envLink=https%3A%2F%2Fgithub.com%2Fenricoros%2Fbig-AGI%2Fblob%2Fmain%2Fdocs%2Fenvironment-variables.md&project-name=big-AGI)
-
-[//]: # (**For the latest Big-AGI:**)
-
-[//]: # (- [**Big-AGI Open**]&#40;https://github.com/enricoros/big-AGI/tree/main&#41; - Open Source, latest models and features &#40;main branch&#41;)
-
-[//]: # (- [**Big-AGI Pro**]&#40;https://big-agi.com&#41; - Hosted with Cloud Sync)
+- **Self-host / Local**: [Installation Guide](docs/installation.md)
+- **Repository**: [https://github.com/Arun9339/MyAi_project](https://github.com/Arun9339/MyAi_project)
 
 ---
 
 ## Our Philosophy
 
-We're an independent, non-VC-funded project with a simple belief: **AI should elevate you, not replace you**.
+We're a modern AI project with a simple belief: **AI should elevate you, not replace you**.
 
-This is why we built Big-AGI to be **local-first**, madly optimized to 0-latency, launched multi-model first to
+This is why we built MyAI to be **local-first**, madly optimized to 0-latency, launched multi-model first to
 defeat hallucinations, designed Beam around the **humans in the loop**, re-wrote frameworks and abstractions
 so you **are not vendor locked-in**, and obsessed over a powerful UI that works, just works.
-
-NOTE: this is a powerful tool - if you need a toy UI or clone, this ain't it.
-
 
 ---
 
 ## Release Notes
 
-👉 **[See the Live Release Notes](https://big-agi.com/changes)**
-- Open 2.1.1: **Weights Dust** **Opus 5**, **GPT-5.6**, **Gemini 3.7**, **Kimi K3**, multi-vendor Transcription, Cerebras/NVIDIA NIM/Sakana/Cohere
-- Open 2.0.5: **Roberto** **Opus 4.7 1M**, **GPT-5.5**, **DeepSeek V4**, Anthropic Containers/Skills, resumable Deep Research, MiniMax & Arcee AI
-- Open 2.0.4: **Hyper Params** **Opus 4.6**, **GPT-5.4**, **Gemini 3.1 Pro**, AWS Bedrock, parameter accuracy, Anthropic continuation/Fast mode
-- Open 2.0.3: **Red Carpet** **Kimi K2.5**, **Gemini 3 Flash**, **GPT 5.2**, Google Drive, Inworld, Novita.ai, Speech/UX improvements
-- Open 2.0.2: **Speex** multi-vendor speech synthesis, **Opus 4.5**, **Gemini 3 Pro**, **Nano Banana Pro**, **Grok 4.1**, **GPT-5.1**, **Kimi K2** + 280 fixes
+👉 **[See GitHub Releases](https://github.com/Arun9339/MyAi_project/releases)**
+- MyAI 2.1.1: **Weights Dust** **Opus 5**, **GPT-5.6**, **Gemini 3.7**, **Kimi K3**, multi-vendor Transcription, Cerebras/NVIDIA NIM/Sakana/Cohere
+- MyAI 2.0.5: **Roberto** **Opus 4.7 1M**, **GPT-5.5**, **DeepSeek V4**, Anthropic Containers/Skills, resumable Deep Research, MiniMax & Arcee AI
+- MyAI 2.0.4: **Hyper Params** **Opus 4.6**, **GPT-5.4**, **Gemini 3.1 Pro**, AWS Bedrock, parameter accuracy, Anthropic continuation/Fast mode
+- MyAI 2.0.3: **Red Carpet** **Kimi K2.5**, **Gemini 3 Flash**, **GPT 5.2**, Google Drive, Inworld, Novita.ai, Speech/UX improvements
 
-### What's New in 2.0 · Oct 31, 2025 · Open
+### What's New in 2.0
 
-- **Big-AGI Open** is ready and more productive and faster than ever, with:
+- **MyAI** is ready and more productive and faster than ever, with:
 - **Beam 2**: multi-modal, program-based, follow-ups, save presets
 - Top-notch AI models support including **agentic models** and **reasoning models**
 - **Image Generation** and editing with Nano Banana and gpt-image-1
@@ -367,7 +332,7 @@ Or use the hosted version at [big-agi.com](https://big-agi.com) with your API ke
 
 [![Official Discord](https://discordapp.com/api/guilds/1098796266906980422/widget.png?style=banner2)](https://discord.gg/MkH4qj2Jp9)
 
-⭐ [Star the repo](https://github.com/enricoros/big-agi) if Big-AGI is useful to you
+⭐ [Star the repo](https://github.com/Arun9339/MyAi_project) if MyAI is useful to you
 
 ### Contribute
 

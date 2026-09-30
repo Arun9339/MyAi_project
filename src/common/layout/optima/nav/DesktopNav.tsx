@@ -33,7 +33,7 @@ import { optimaActions, optimaOpenModels, optimaOpenPreferences, optimaToggleDra
 import { scratchClipSupported, useScratchClipVisibility } from '../scratchclip/store-scratchclip';
 
 
-export const bigAgiProUrl = 'https://big-agi.com' + clientUtmSource('upgrade-apps');
+export const myAiProUrl = BaseProduct.ProductURL + clientUtmSource('upgrade-apps');
 
 
 const desktopNavBarSx: SxProps = {
@@ -170,10 +170,10 @@ export function DesktopNav(props: { component: React.ElementType, currentApp?: N
           sx={{ minWidth: 260 }}
         >
 
-          <MenuItem component='a' variant='solid' color='primary' href={bigAgiProUrl} target='_blank' sx={{ minHeight: 40 }}>
+          <MenuItem component='a' variant='solid' color='primary' href={myAiProUrl} target='_blank' sx={{ minHeight: 40 }}>
             {/*<ListItemDecorator>New</ListItemDecorator>*/}
             {/*<ListItemDecorator><RocketLaunchRounded /></ListItemDecorator>*/}
-            Big-AGI Pro
+            MyAI GitHub
             {/*✨*/}
             <ArrowOutwardRoundedIcon sx={{ ml: 'auto' }}/>
           </MenuItem>
@@ -225,8 +225,8 @@ export function DesktopNav(props: { component: React.ElementType, currentApp?: N
           <MenuItem component='a' href={BaseProduct.SupportForm()} target='_blank'>
             <ListItemDecorator>🔥</ListItemDecorator>
             <div>
-              Improve Big-AGI
-              <FormHelperText>AI fixes what you report</FormHelperText>
+              Improve MyAI
+              <FormHelperText>Report issues & feedback</FormHelperText>
             </div>
             <ArrowOutwardRoundedIcon sx={{ ml: 'auto' }} />
           </MenuItem>

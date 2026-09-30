@@ -1,9 +1,9 @@
 {
-  "name": "big-AGI",
-  "short_name": "big-AGI",
-  "theme_color": "#32383E",
+  "name": "MyAI",
+  "short_name": "MyAI",
+  "theme_color": "#171A1C",
   "background_color": "#9FA6AD",
-  "description": "Open-source AI workspace. Multi-model reasoning and personas for maximum control.",
+  "description": "Personal AI workspace. Multi-model reasoning and personas for maximum control.",
   "categories": [
     "productivity",
     "AI",

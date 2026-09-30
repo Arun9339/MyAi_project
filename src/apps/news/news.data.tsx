@@ -64,9 +64,9 @@ export const DevNewsItem: NewsItem = {
   versionName: 'Development Build',
   versionDate: undefined,
   items: [
-    { text: <>You&apos;re running an unsupported <B>developer build</B> of Big-AGI Open {_frontendPkgVersion}</> },
+    { text: <>You&apos;re running an unsupported <B>developer build</B> of MyAI {_frontendPkgVersion}</> },
     { text: <>Please report screenshots of breakages and console error messages</> },
-    { text: <ExternalLink href='https://big-agi.com'>Back to the official version</ExternalLink> },
+    { text: <ExternalLink href='https://github.com/Arun9339/MyAi_project'>Back to the repository</ExternalLink> },
   ],
 } as const;
 
@@ -147,14 +147,14 @@ export const NewsItems: NewsItem[] = [
     versionDate: new Date('2025-10-31T15:00:00Z'),
     versionCoverImage: coverV200,
     items: [
-      { text: <><B wow>Big-AGI Open</B> is ready and more productive and faster than ever, with:</> },
+      { text: <><B wow>MyAI</B> is ready and more productive and faster than ever, with:</> },
       { text: <><B>Beam 2</B>: multi-modal, program-based, follow-ups, save presets</> },
       { text: <>Top-notch AI models support including <B>agentic models</B> and <B>reasoning models</B></> },
       { text: <><B>Image Generation</B> and editing with Nano Banana and gpt-image-1</> },
       { text: <><B>Web Search</B> with citations for supported models</> },
       { text: <><B>UI</B> &amp; Mobile UI overhaul with peeking and side panels</> },
       // { text: <><B>Performance</B>: 10x faster tokenization, lazy modals, fragment system</> },
-      { text: <>And many more <ExternalLink href='https://github.com/enricoros/big-AGI/issues/567#issuecomment-2262187617'>Big-AGI 2 changes</ExternalLink></> },
+      { text: <>And many more <ExternalLink href='https://github.com/Arun9339/MyAi_project/releases'>MyAI updates</ExternalLink></> },
       { text: <>Built for the future, madly optimized</> },
     ],
   },

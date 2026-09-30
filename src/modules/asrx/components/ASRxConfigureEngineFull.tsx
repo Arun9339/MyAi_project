@@ -422,7 +422,7 @@ function DictionaryModal(props: {
         autoFocus
         minRows={6}
         maxRows={16}
-        placeholder={'Big-AGI\nBeam\n...'}
+        placeholder={'MyAI\nBeam\n...'}
         value={text}
         onChange={event => setText(event.target.value)}
       />

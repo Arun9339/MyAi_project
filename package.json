@@ -1,10 +1,9 @@
 {
-  "name": "big-agi",
+  "name": "myai",
   "version": "2.1.1",
   "private": true,
-  "author": "Enrico Ros <enrico@big-agi.com> (https://www.enricoros.com)",
-  "homepage": "https://big-agi.com",
-  "repository": "https://github.com/enricoros/big-agi",
+  "author": "Arun",
+  "repository": "https://github.com/Arun9339/MyAi_project",
   "scripts": {
     "predev": "node tools/develop/gen-devtools-workspace/generate-devtools-workspace.mjs && node tools/develop/gen-llms-defs/generate-llms-defs.mjs",
     "predev-debug": "node tools/develop/gen-devtools-workspace/generate-devtools-workspace.mjs && node tools/develop/gen-llms-defs/generate-llms-defs.mjs",
@@ -84,7 +83,7 @@
     "tiktoken": "^1.0.22",
     "turndown": "^7.2.4",
     "zod": "^4.4.3",
-    "zustand": "5.0.15"
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@posthog/nextjs-config": "~1.6",

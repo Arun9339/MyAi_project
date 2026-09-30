@@ -21,7 +21,7 @@ import { prettyTimestampForFilenames } from '~/common/util/timeUtils';
 
 
 // configuration
-const BACKUP_FILE_FORMAT = 'Big-AGI Backup File';
+const BACKUP_FILE_FORMAT = 'MyAI Backup File';
 const BACKUP_FORMAT_VERSION = '1.2';
 const BACKUP_FORMAT_VERSION_NUMBER = 102000;
 const WINDOW_RELOAD_DELAY = 300;
@@ -641,7 +641,7 @@ async function createFlashObject(backupType: 'full' | 'partial' | 'auto-before-r
     metadata: {
       version: BACKUP_FORMAT_VERSION,
       timestamp: new Date().toISOString(),
-      application: 'Big-AGI',
+      application: 'MyAI',
       backupType,
     },
     storage: {
@@ -723,10 +723,10 @@ export function FlashRestore(props: { unlockRestore?: boolean }) {
         logger.warn('User selected invalid backup file format', { data: { hasMetadata: !!data?.metadata, hasStorage: !!data?.storage } }, undefined, { skipReporting: true });
         return;
       }
-      if (data.metadata.application !== 'Big-AGI') {
+      if (data.metadata.application !== 'MyAI' && data.metadata.application !== 'Big-AGI') {
         // User selected incompatible file - this is expected, not a system error
         setRestoreState('error');
-        setErrorMessage(`Incompatible backup file. Found application "${data.metadata.application}" but expected "Big-AGI".`);
+        setErrorMessage(`Incompatible backup file. Found application "${data.metadata.application}" but expected "MyAI".`);
         logger.warn('User selected incompatible backup file', { application: data.metadata.application }, undefined, { skipReporting: true });
         return;
       }
@@ -735,7 +735,7 @@ export function FlashRestore(props: { unlockRestore?: boolean }) {
       const currentSchemaVersion = BACKUP_FORMAT_VERSION_NUMBER;
       const backupSchemaVersion = data.schemaVersion || 0;
       if (backupSchemaVersion > currentSchemaVersion)
-        setSchemaVersionWarning(`WARNING: You are restoring from an newer Big-AGI version to this one. This is a DOWNGRADE and may cause data loss or application errors.`);
+        setSchemaVersionWarning(`WARNING: You are restoring from a newer MyAI version to this one. This is a DOWNGRADE and may cause data loss or application errors.`);
       else {
         // Check for tenant slug mismatch
         const currentTenantSlug = Release.TenantSlug;
@@ -997,7 +997,7 @@ export function FlashBackup(props: {
         includeImages,
         includeSettings,
         true, // includeIndexedDB - full backup includes everything
-        `Big-AGI-${tradeFileVariant()}-flash${includeImages ? '+images' : ''}${includeSettings ? '' : '-nosets'}${event.ctrlKey ? '-download' : ''}-${dateStr}.json`,
+        `MyAI-${tradeFileVariant()}-flash${includeImages ? '+images' : ''}${includeSettings ? '' : '-nosets'}${event.ctrlKey ? '-download' : ''}-${dateStr}.json`,
       );
       setBackupState(success ? 'success' : 'idle');
       if (typeof success === 'number')

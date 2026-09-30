@@ -201,11 +201,11 @@ export function AppNews() {
       }}>
 
         <Typography level='h1' sx={{ fontSize: '2.7rem', mb: 4 }}>
-          Welcome to <Box component='span' sx={{ animation: `${animationColorBlues} 10s infinite`, zIndex: 1 /* perf-opt */ }}>Big-AGI Open</Box>!
+          Welcome to <Box component='span' sx={{ animation: `${animationColorBlues} 10s infinite`, zIndex: 1 /* perf-opt */ }}>MyAI</Box>!
         </Typography>
 
         <Typography sx={{ mb: 2, textAlign: 'center', lineHeight: 'lg' }} level='title-sm'>
-          Big-AGI has been updated to version {firstNews?.versionCode}<br/>
+          MyAI has been updated to version {firstNews?.versionCode}<br/>
           {/*You are running version {firstNews?.versionCode}<br/>*/}
           {/*{!!newsFrontendTimestamp && <span style={{ opacity: 0.5 }}>Updated <TimeAgo date={newsFrontendTimestamp} /></span>}*/}
         </Typography>
@@ -225,7 +225,7 @@ export function AppNews() {
           {!Release.IsNodeDevBuild && (
             <Button
               variant='solid' color='primary' size='lg'
-              component={Link} href={bigAgiProUrl} target='_blank' noLinkStyle
+              component={Link} href={Brand.URIs.OpenRepo} target='_blank' noLinkStyle
               endDecorator={<><ArrowOutwardRoundedIcon /></>}
               sx={{
                 boxShadow: '0 8px 24px -4px rgb(var(--joy-palette-primary-mainChannel) / 20%)',
@@ -233,7 +233,7 @@ export function AppNews() {
                 // transform: 'translateY(-1px)',
               }}
             >
-              Big-AGI Pro
+              MyAI GitHub
               ✨
             </Button>
           )}

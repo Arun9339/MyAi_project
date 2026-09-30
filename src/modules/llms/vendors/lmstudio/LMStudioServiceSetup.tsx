@@ -49,7 +49,7 @@ export function LMStudioServiceSetup(props: { serviceId: DModelsServiceId }) {
       startCollapsed
     >
       {/* play='auto': the accordion-expand click grants unmuted autoplay (the embed mounts on reveal, via its visibility gate), like the pre-2026-07 behavior */}
-      <VideoPlayerYouTube width='100%' height={360} youTubeVideoId='MqXzxVokMDk' title='Running big-AGI locally with LM Studio [TUTORIAL]' play='auto' rounded />
+      <VideoPlayerYouTube width='100%' height={360} youTubeVideoId='MqXzxVokMDk' title='Running MyAI locally with LM Studio [TUTORIAL]' play='auto' rounded />
     </ExpanderAccordion>
 
     <Typography level='body-sm'>

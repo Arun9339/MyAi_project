@@ -100,10 +100,20 @@ export const createAppTheme = (uiComplexityMinimal: boolean) => extendTheme({
      * Input
      *  - remove the box-shadow: https://github.com/mui/material-ui/commit/8d4728df8a66d710660af96ac7ff3f86d2d26382
      */
+    JoyButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: '8px',
+          fontWeight: 600,
+          transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
+        },
+      },
+    },
     JoyInput: {
       styleOverrides: {
         root: {
           boxShadow: 'none',
+          borderRadius: '8px',
         },
       },
     },
